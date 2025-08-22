@@ -4,4 +4,4 @@ import './index.css'
 import OutbreakApp from './OutbreakApp.jsx'
 
 const root = createRoot(document.getElementById('root'))
-root.render(<OutbreakApp />)
+root.render(React.createElement(OutbreakApp))
